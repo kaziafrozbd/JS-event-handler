@@ -1,0 +1,47 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Events</title>
+</head>
+<body>
+    <h1>Button Click Events</h1>
+    <button onclick="document.body.style.backgroundColor = 'red'">Click me: Red</button>
+    <button onclick="makeGreen()">Click me: Green</button>
+    <button id = 'bg-blue'>Click me: Blue</button>
+    <button id = 'bg-orange'>Click me: Orange</button>
+    <button id = 'bg-goldenrod'>Click me: Golden</button>
+    <button id = 'bg-pink'>Click me: Pink</button>
+    <button id = 'bg-lightBlue'>Click me: Light Blue</button>
+<br>
+<p id="paragraph"></p>
+<button onclick="show()">text show</button>
+<br>
+<p id="para"></p>
+<input id="input-text" type="text">
+<button id="update-text">update</button>
+<section>
+    <h3>Your comments</h3>
+    <div id="comment-container">
+        <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Impedit dolorem mollitia fugit perspiciatis optio cum officiis accusantium odit natus voluptates.</p>
+        <p>Aliquam porro dolorum hic cumque placeat incidunt modi consequuntur amet repellendus quasi! Velit sint illo doloribus eligendi tenetur a harum.</p>
+    </div>
+    <div>
+        <h4>Add your comments</h4>
+        <textarea name="" id="comment-area" cols="60" rows="5"></textarea>
+        <br>
+        <button id="submit-comment">submit</button>
+    </div>
+</section>
+<section>
+    <h4 id="secret-info">Very Very secret info</h4>
+    <input id="delete-confirm" type="text" placeholder="write delete">
+    <button id="delete-btn" disabled>Delete</button>
+</section>
+
+<script src="events.js"></script>
+
+</body>
+</html>
